@@ -1,4 +1,20 @@
-
-"devDependencies": {
-  "@netlify/plugin-functions-core": "^7.0.0"
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    // Your project dependencies
+  },
+  "devDependencies": {
+    "@netlify/plugin-functions-core": "^7.0.0"
+    // Other development dependencies, if any
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "MIT"
 }
