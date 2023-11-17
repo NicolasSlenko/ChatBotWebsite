@@ -1,13 +1,9 @@
 [build]
   command = "bash build.sh"
-  publish = "static/templates/"
-
+  functions = "functions"  # If you have serverless functions
 
 [build.environment]
-  CUDA_VISIBLE_DEVICES = " "  # Add any other environment variables here
+  PYTHON_VERSION = "3.8"
 
-[context.production.environment]
-  MY_VARIABLE = "production-value"
-
-[context.deploy-preview.environment]
-  MY_VARIABLE = "deploy-preview-value"
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
