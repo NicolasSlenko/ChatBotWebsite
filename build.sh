@@ -1,11 +1,5 @@
-#!/bin/bash
-
-# Create and activate virtual environment
-python -m venv venv
+apt install python3.8-venv -y
+python3.8 -m venv venv
 source venv/bin/activate
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Run your application
 python app.py
