@@ -1,6 +1,7 @@
 [build]
   command = "bash build.sh"
-  functions = "functions"  # (if you have Netlify functions)
+  publish = "static/templates/"
+
 
 [build.environment]
   CUDA_VISIBLE_DEVICES = " "  # Add any other environment variables here
