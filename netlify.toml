@@ -1,0 +1,12 @@
+[build]
+  command = "bash scripts/build.sh"
+  functions = "functions"  # (if you have Netlify functions)
+
+[build.environment]
+  CUDA_VISIBLE_DEVICES = " "  # Add any other environment variables here
+
+[context.production.environment]
+  MY_VARIABLE = "production-value"
+
+[context.deploy-preview.environment]
+  MY_VARIABLE = "deploy-preview-value"
