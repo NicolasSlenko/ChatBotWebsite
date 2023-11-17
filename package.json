@@ -9,7 +9,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@netlify/plugin-functions-core": "^7.0.0"
+    "@netlify/plugin-functions-core": "^1.0.4"
   
   },
   "engines": {
