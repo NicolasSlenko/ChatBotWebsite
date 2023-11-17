@@ -1,5 +1,7 @@
 import nltk
+
 nltk.download('popular')
+nltk.data.path.append("/opt/buildhome/nltk_data")
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
