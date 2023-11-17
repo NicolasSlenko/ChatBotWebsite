@@ -1,1 +1,4 @@
 
+"devDependencies": {
+  "@netlify/plugin-functions-core": "^7.0.0"
+}
