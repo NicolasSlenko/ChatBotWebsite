@@ -2,16 +2,15 @@
   "name": "your-project-name",
   "version": "1.0.0",
   "description": "Your project description",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node app.js"
+    "start": "python app.py"
   },
   "dependencies": {
-    // Your project dependencies
   },
   "devDependencies": {
     "@netlify/plugin-functions-core": "^7.0.0"
-    // Other development dependencies, if any
+  
   },
   "engines": {
     "node": "14.x"
